@@ -1,0 +1,1087 @@
+2020-08-10 15:04:00.090  INFO 8304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:04:00.809  INFO 8304 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 15:04:00.921  INFO 8304 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 15:04:00.987  WARN 8304 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 15:04:01.000  WARN 8304 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 15:04:01.013  INFO 8304 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 15:04:01.017  INFO 8304 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 15:04:01.106  INFO 8304 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-10 15:04:09.540  WARN 8304 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:04:09.556  WARN 8304 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:04:12.861  INFO 8304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 15:04:12.920  INFO 8304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2020-08-10 15:04:13.636  WARN 8304 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:04:14.878  INFO 8304 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3d380e54-b83a-318e-ade8-8fa22ca09c6a
+2020-08-10 15:04:15.232  INFO 8304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:04:15.825  INFO 8304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:04:15.929  INFO 8304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:04:15.963  INFO 8304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:04:16.862  INFO 8304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-10 15:04:16.917  INFO 8304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-10 15:04:16.918  INFO 8304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-10 15:04:17.223  INFO 8304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-10 15:04:17.223  INFO 8304 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 16051 ms
+2020-08-10 15:04:17.687  INFO 8304 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:04:17.688  INFO 8304 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 15:04:17.688  INFO 8304 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:04:18.780  INFO 8304 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 15:04:19.626  INFO 8304 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 15:04:24.050  INFO 8304 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 15:04:25.884  INFO 8304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 15:04:26.758  INFO 8304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 15:04:26.862  INFO 8304 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 15:04:27.178  WARN 8304 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.example.entity.ExcelEntity
+2020-08-10 15:04:27.180  INFO 8304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 15:04:27.215  INFO 8304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 15:04:27.217  INFO 8304 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-08-10 15:04:27.221  WARN 8304 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-08-10 15:04:27.222  WARN 8304 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-08-10 15:04:27.224  WARN 8304 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-08-10 15:04:27.285  INFO 8304 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-10 15:04:27.371 ERROR 8304 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.example.entity.ExcelEntity
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.SpringCloudDemoApplication.main(SpringCloudDemoApplication.java:14)
+Caused by: org.hibernate.AnnotationException: No identifier specified for entity: com.example.entity.ExcelEntity
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:266)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:781)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:254)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:230)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:273)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1214)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1245)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 16 common frames omitted
+
+2020-08-10 15:06:40.863  INFO 856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:06:41.174  INFO 856 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 15:06:41.209  INFO 856 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 15:06:41.249  WARN 856 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 15:06:41.262  WARN 856 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 15:06:41.276  INFO 856 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 15:06:41.281  INFO 856 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 15:06:41.350  INFO 856 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-10 15:06:42.417  WARN 856 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:06:42.421  WARN 856 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:06:42.806  INFO 856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 15:06:42.836  INFO 856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2020-08-10 15:06:42.952  WARN 856 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:06:43.166  INFO 856 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3d380e54-b83a-318e-ade8-8fa22ca09c6a
+2020-08-10 15:06:43.419  INFO 856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:06:43.736  INFO 856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:06:43.815  INFO 856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:06:43.832  INFO 856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:06:44.209  INFO 856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-10 15:06:44.222  INFO 856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-10 15:06:44.222  INFO 856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-10 15:06:44.303  INFO 856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-10 15:06:44.303  INFO 856 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2915 ms
+2020-08-10 15:06:44.621  INFO 856 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:06:44.622  INFO 856 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 15:06:44.622  INFO 856 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:06:45.018  INFO 856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 15:06:45.112  INFO 856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 15:06:45.324  INFO 856 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 15:06:45.451  INFO 856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 15:06:45.642  INFO 856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 15:06:45.658  INFO 856 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 15:06:48.273  INFO 856 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 15:06:48.379  INFO 856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 15:06:48.798  WARN 856 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 15:06:49.112  WARN 856 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 15:06:49.113  INFO 856 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 15:06:49.152  WARN 856 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 15:06:49.152  INFO 856 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 15:06:49.600  INFO 856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 15:06:49.682  INFO 856 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 15:06:49.813  INFO 856 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 15:06:51.403  INFO 856 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 15:06:51.594  INFO 856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-10 15:06:51.598  INFO 856 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.10.10.71","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0} to beat map.
+2020-08-10 15:06:51.743  INFO 856 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 registering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8007,"weight":1.0}
+2020-08-10 15:06:51.771  INFO 856 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP spring-cloud-demo 10.10.10.71:8007 register finished
+2020-08-10 15:06:51.873  INFO 856 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 12.318 seconds (JVM running for 13.347)
+2020-08-10 15:06:51.898  INFO 856 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:06:51.899  INFO 856 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:06:51.900  INFO 856 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:06:51.900  INFO 856 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:06:51.901  INFO 856 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:06:51.901  INFO 856 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:06:52.552  INFO 856 --- [RMI TCP Connection(1)-10.10.10.71] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 15:06:52.553  INFO 856 --- [RMI TCP Connection(1)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-10 15:06:52.698  INFO 856 --- [RMI TCP Connection(1)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Completed initialization in 145 ms
+2020-08-10 15:07:39.549  INFO 856 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-08-10 15:07:39.549  INFO 856 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@spring-cloud-demo:10.10.10.71:8007 from beat map.
+2020-08-10 15:07:39.549  INFO 856 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 deregistering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{},"port":8007,"weight":1.0}
+2020-08-10 15:07:39.562  INFO 856 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2020-08-10 15:07:39.563  INFO 856 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 15:07:39.586  INFO 856 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 15:07:39.591  INFO 856 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 15:07:39.599  INFO 856 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 15:25:12.975  INFO 7232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:25:13.274  INFO 7232 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 15:25:13.306  INFO 7232 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 15:25:13.345  WARN 7232 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 15:25:13.358  WARN 7232 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 15:25:13.371  INFO 7232 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 15:25:13.376  INFO 7232 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 15:25:13.435  INFO 7232 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-10 15:25:14.233  WARN 7232 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:25:14.237  WARN 7232 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:25:14.509  INFO 7232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 15:25:14.756  INFO 7232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237ms. Found 1 repository interfaces.
+2020-08-10 15:25:14.850  WARN 7232 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:25:15.037  INFO 7232 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8970e0ce-cb9c-3e72-a078-4136be3e7bdd
+2020-08-10 15:25:15.268  INFO 7232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:25:15.506  INFO 7232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:25:15.585  INFO 7232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:25:15.603  INFO 7232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:25:16.000  INFO 7232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-10 15:25:16.014  INFO 7232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-10 15:25:16.014  INFO 7232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-10 15:25:16.097  INFO 7232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-10 15:25:16.097  INFO 7232 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2641 ms
+2020-08-10 15:25:16.414  INFO 7232 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:25:16.414  INFO 7232 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 15:25:16.415  INFO 7232 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:25:16.811  INFO 7232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 15:25:16.897  INFO 7232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 15:25:17.098  INFO 7232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 15:25:17.247  INFO 7232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 15:25:17.445  INFO 7232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 15:25:17.462  INFO 7232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 15:25:18.401  WARN 7232 --- [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table excel_entity (staff_code varchar(255) not null auto_increment, department_id varchar(255), email varchar(255), name varchar(255), position_id varchar(255), sex varchar(255), tel varchar(255), weixin varchar(255), primary key (staff_code)) engine=MyISAM" via JDBC Statement
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table excel_entity (staff_code varchar(255) not null auto_increment, department_id varchar(255), email varchar(255), name varchar(255), position_id varchar(255), sex varchar(255), tel varchar(255), weixin varchar(255), primary key (staff_code)) engine=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:320)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.SpringCloudDemoApplication.main(SpringCloudDemoApplication.java:14)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Incorrect column specifier for column 'staff_code'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2439)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:829)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:729)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+
+2020-08-10 15:25:18.404  INFO 7232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 15:25:18.416  INFO 7232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 15:25:18.550  WARN 7232 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 15:25:18.696  WARN 7232 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 15:25:18.696  INFO 7232 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 15:25:18.703  WARN 7232 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 15:25:18.703  INFO 7232 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 15:25:19.363  INFO 7232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 15:25:19.665  INFO 7232 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 15:25:19.777  INFO 7232 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 15:25:20.333  INFO 7232 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 15:25:20.469  INFO 7232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-10 15:25:20.473  INFO 7232 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.10.10.71","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0} to beat map.
+2020-08-10 15:25:20.577  INFO 7232 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 registering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8007,"weight":1.0}
+2020-08-10 15:25:20.597  INFO 7232 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP spring-cloud-demo 10.10.10.71:8007 register finished
+2020-08-10 15:25:20.708  INFO 7232 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 8.886 seconds (JVM running for 9.773)
+2020-08-10 15:25:20.715  INFO 7232 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:25:20.716  INFO 7232 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:25:20.717  INFO 7232 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:25:20.717  INFO 7232 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:25:20.718  INFO 7232 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:25:20.718  INFO 7232 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:25:21.295  INFO 7232 --- [RMI TCP Connection(1)-10.10.10.71] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 15:25:21.295  INFO 7232 --- [RMI TCP Connection(1)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-10 15:25:21.311  INFO 7232 --- [RMI TCP Connection(1)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-08-10 15:26:44.872  INFO 7232 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-08-10 15:26:44.872  INFO 7232 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@spring-cloud-demo:10.10.10.71:8007 from beat map.
+2020-08-10 15:26:44.874  INFO 7232 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 deregistering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{},"port":8007,"weight":1.0}
+2020-08-10 15:26:44.888  INFO 7232 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2020-08-10 15:26:44.890  INFO 7232 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 15:26:44.895  INFO 7232 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 15:26:44.900  INFO 7232 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 15:26:44.909  INFO 7232 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 15:26:52.129  INFO 8112 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:26:52.409  INFO 8112 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 15:26:52.440  INFO 8112 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 15:26:52.480  WARN 8112 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 15:26:52.493  WARN 8112 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 15:26:52.506  INFO 8112 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 15:26:52.511  INFO 8112 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 15:26:52.564  INFO 8112 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-10 15:26:53.422  WARN 8112 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:26:53.426  WARN 8112 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:26:53.696  INFO 8112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 15:26:53.774  INFO 8112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 1 repository interfaces.
+2020-08-10 15:26:53.861  WARN 8112 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 15:26:54.028  INFO 8112 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8970e0ce-cb9c-3e72-a078-4136be3e7bdd
+2020-08-10 15:26:54.229  INFO 8112 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:26:54.598  INFO 8112 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:26:54.670  INFO 8112 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:26:54.685  INFO 8112 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 15:26:54.967  INFO 8112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-10 15:26:54.981  INFO 8112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-10 15:26:54.981  INFO 8112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-10 15:26:55.063  INFO 8112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-10 15:26:55.064  INFO 8112 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2473 ms
+2020-08-10 15:26:55.390  INFO 8112 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:26:55.391  INFO 8112 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 15:26:55.391  INFO 8112 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 15:26:55.759  INFO 8112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 15:26:55.863  INFO 8112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 15:26:56.039  INFO 8112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 15:26:56.170  INFO 8112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 15:26:56.352  INFO 8112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 15:26:56.368  INFO 8112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 15:26:57.259  INFO 8112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 15:26:57.275  INFO 8112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 15:26:57.439  WARN 8112 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 15:26:57.545  WARN 8112 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 15:26:57.545  INFO 8112 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 15:26:57.551  WARN 8112 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 15:26:57.551  INFO 8112 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 15:26:58.185  INFO 8112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 15:26:58.232  INFO 8112 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 15:26:58.334  INFO 8112 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 15:26:58.883  INFO 8112 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 15:26:59.013  INFO 8112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-10 15:26:59.017  INFO 8112 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.10.10.71","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0} to beat map.
+2020-08-10 15:26:59.111  INFO 8112 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 registering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8007,"weight":1.0}
+2020-08-10 15:26:59.131  INFO 8112 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP spring-cloud-demo 10.10.10.71:8007 register finished
+2020-08-10 15:26:59.229  INFO 8112 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 8.269 seconds (JVM running for 9.247)
+2020-08-10 15:26:59.237  INFO 8112 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:26:59.238  INFO 8112 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:26:59.238  INFO 8112 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:26:59.238  INFO 8112 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:26:59.239  INFO 8112 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 15:26:59.239  INFO 8112 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 15:26:59.772  INFO 8112 --- [RMI TCP Connection(4)-10.10.10.71] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 15:26:59.772  INFO 8112 --- [RMI TCP Connection(4)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-10 15:26:59.787  INFO 8112 --- [RMI TCP Connection(4)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-08-10 17:45:07.783  INFO 6392 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:45:08.392  INFO 6392 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 17:45:08.571  INFO 6392 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 17:45:08.676  WARN 6392 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 17:45:08.696  WARN 6392 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 17:45:08.709  INFO 6392 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 17:45:08.747  INFO 6392 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 17:45:08.883  INFO 6392 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 17:45:10.745  WARN 6392 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:45:10.752  WARN 6392 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:45:11.270  INFO 6392 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 17:45:11.539  INFO 6392 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 251ms. Found 1 repository interfaces.
+2020-08-10 17:45:11.730  WARN 6392 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:45:12.019  INFO 6392 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f86d3f6-3dc8-36c8-b6b9-0546bdeecfa7
+2020-08-10 17:45:12.832  INFO 6392 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:45:13.377  INFO 6392 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:45:13.512  INFO 6392 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:45:13.561  INFO 6392 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:45:14.030  INFO 6392 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:45:14.221  INFO 6392 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 17:45:14.605  INFO 6392 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:45:14.911  INFO 6392 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 17:45:16.969  INFO 6392 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 17:45:17.025  INFO 6392 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 17:45:19.740  INFO 6392 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:45:19.751  INFO 6392 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:45:19.786  WARN 6392 --- [Test worker] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'excelListener' defined in file [D:\workspace\spring-cloud-demo\build\classes\java\main\com\example\common\ExcelListener.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Lifecycle method annotation requires a no-arg method: public void com.example.common.ExcelListener.invoke(java.lang.Object,com.alibaba.excel.context.AnalysisContext)
+2020-08-10 17:45:19.787  INFO 6392 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:45:19.789  INFO 6392 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 17:45:19.815  INFO 6392 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 17:45:19.840  INFO 6392 --- [Test worker] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-10 17:45:19.849 ERROR 6392 --- [Test worker] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'excelListener' defined in file [D:\workspace\spring-cloud-demo\build\classes\java\main\com\example\common\ExcelListener.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Lifecycle method annotation requires a no-arg method: public void com.example.common.ExcelListener.invoke(java.lang.Object,com.alibaba.excel.context.AnalysisContext)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:102)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:82)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:78)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Lifecycle method annotation requires a no-arg method: public void com.example.common.ExcelListener.invoke(java.lang.Object,com.alibaba.excel.context.AnalysisContext)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.<init>(InitDestroyAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.lambda$buildLifecycleMetadata$0(InitDestroyAnnotationBeanPostProcessor.java:234)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:310)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	... 102 common frames omitted
+
+2020-08-10 17:45:19.872 ERROR 6392 --- [Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@72fbebc8] to prepare test instance [com.example.SpringCloudDemoApplicationTests@11450304]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:102)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:82)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:78)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'excelListener' defined in file [D:\workspace\spring-cloud-demo\build\classes\java\main\com\example\common\ExcelListener.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Lifecycle method annotation requires a no-arg method: public void com.example.common.ExcelListener.invoke(java.lang.Object,com.alibaba.excel.context.AnalysisContext)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 88 common frames omitted
+Caused by: java.lang.IllegalStateException: Lifecycle method annotation requires a no-arg method: public void com.example.common.ExcelListener.invoke(java.lang.Object,com.alibaba.excel.context.AnalysisContext)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.<init>(InitDestroyAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.lambda$buildLifecycleMetadata$0(InitDestroyAnnotationBeanPostProcessor.java:234)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.buildLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:232)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.findLifecycleMetadata(InitDestroyAnnotationBeanPostProcessor.java:210)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(InitDestroyAnnotationBeanPostProcessor.java:149)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:310)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	... 102 common frames omitted
+
+2020-08-10 17:52:23.954  INFO 8756 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:52:24.375  INFO 8756 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 17:52:24.442  INFO 8756 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 17:52:24.566  WARN 8756 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 17:52:24.581  WARN 8756 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 17:52:24.614  INFO 8756 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 17:52:24.638  INFO 8756 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 17:52:24.798  INFO 8756 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 17:52:27.122  WARN 8756 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:52:27.129  WARN 8756 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:52:27.524  INFO 8756 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 17:52:27.676  INFO 8756 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134ms. Found 1 repository interfaces.
+2020-08-10 17:52:27.844  WARN 8756 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:52:28.112  INFO 8756 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f86d3f6-3dc8-36c8-b6b9-0546bdeecfa7
+2020-08-10 17:52:28.715  INFO 8756 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:52:29.252  INFO 8756 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:52:29.424  INFO 8756 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:52:29.483  INFO 8756 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:52:29.957  INFO 8756 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:52:30.107  INFO 8756 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 17:52:30.474  INFO 8756 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:52:30.821  INFO 8756 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 17:52:31.410  INFO 8756 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 17:52:31.449  INFO 8756 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 17:52:33.758  INFO 8756 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:52:33.770  INFO 8756 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:52:37.398  WARN 8756 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:52:39.409  WARN 8756 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 17:52:39.409  INFO 8756 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 17:52:39.468  WARN 8756 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 17:52:39.468  INFO 8756 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 17:52:40.287  INFO 8756 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:52:40.610  INFO 8756 --- [Test worker] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 17:52:41.391  INFO 8756 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 17:52:41.466  INFO 8756 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 17:52:41.468  INFO 8756 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 17:52:41.469  INFO 8756 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 17:52:44.547  INFO 8756 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 17:52:44.786  INFO 8756 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : Started SpringCloudDemoApplicationTests in 22.259 seconds (JVM running for 24.368)
+2020-08-10 17:52:44.859  INFO 8756 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 17:52:44.862  INFO 8756 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 17:52:44.863  INFO 8756 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 17:52:44.863  INFO 8756 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 17:52:44.866  INFO 8756 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 17:52:44.866  INFO 8756 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 17:53:02.341  INFO 8756 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:53:02.352  INFO 8756 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:53:02.355  INFO 8756 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 17:53:02.388  INFO 8756 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 17:53:36.859  INFO 8732 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:53:37.306  INFO 8732 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 17:53:37.380  INFO 8732 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 17:53:37.444  WARN 8732 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 17:53:37.458  WARN 8732 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 17:53:37.478  INFO 8732 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 17:53:37.493  INFO 8732 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 17:53:37.611  INFO 8732 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 17:53:39.055  WARN 8732 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:53:39.061  WARN 8732 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:53:39.526  INFO 8732 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 17:53:39.672  INFO 8732 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128ms. Found 1 repository interfaces.
+2020-08-10 17:53:39.835  WARN 8732 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 17:53:40.161  INFO 8732 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f86d3f6-3dc8-36c8-b6b9-0546bdeecfa7
+2020-08-10 17:53:40.710  INFO 8732 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:53:41.197  INFO 8732 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:53:41.376  INFO 8732 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:53:41.445  INFO 8732 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 17:53:42.061  INFO 8732 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 17:53:42.247  INFO 8732 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 17:53:42.761  INFO 8732 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 17:53:43.095  INFO 8732 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 17:53:43.550  INFO 8732 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 17:53:43.595  INFO 8732 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 17:53:45.128  INFO 8732 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 17:53:45.139  INFO 8732 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 17:53:45.960  WARN 8732 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 17:53:46.997  WARN 8732 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 17:53:46.997  INFO 8732 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 17:53:47.011  WARN 8732 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 17:53:47.012  INFO 8732 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 17:53:47.621  INFO 8732 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 17:53:47.790  INFO 8732 --- [Test worker] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 17:53:48.448  INFO 8732 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 17:53:48.485  INFO 8732 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 17:53:48.486  INFO 8732 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 17:53:48.487  INFO 8732 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 17:53:50.367  INFO 8732 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 17:53:50.500  INFO 8732 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : Started SpringCloudDemoApplicationTests in 15.103 seconds (JVM running for 17.385)
+2020-08-10 17:53:50.555  INFO 8732 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 17:53:50.559  INFO 8732 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 17:53:50.560  INFO 8732 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 17:53:50.561  INFO 8732 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 17:53:50.562  INFO 8732 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 17:53:50.563  INFO 8732 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:12:49.593  INFO 3448 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:12:50.004  INFO 3448 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 18:12:50.076  INFO 3448 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 18:12:50.145  WARN 3448 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 18:12:50.159  WARN 3448 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 18:12:50.174  INFO 3448 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 18:12:50.182  INFO 3448 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 18:12:50.289  INFO 3448 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 18:12:51.651  WARN 3448 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:12:51.657  WARN 3448 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:12:52.069  INFO 3448 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 18:12:52.198  INFO 3448 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114ms. Found 1 repository interfaces.
+2020-08-10 18:12:52.335  WARN 3448 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:12:52.602  INFO 3448 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d296fe53-98fd-34ee-989e-47bf785625ad
+2020-08-10 18:12:53.144  INFO 3448 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:12:53.660  INFO 3448 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:12:53.817  INFO 3448 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:12:53.880  INFO 3448 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:12:54.275  INFO 3448 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 18:12:54.455  INFO 3448 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 18:12:54.819  INFO 3448 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 18:12:55.071  INFO 3448 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 18:12:55.441  INFO 3448 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 18:12:55.482  INFO 3448 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 18:12:57.163  INFO 3448 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 18:12:57.176  INFO 3448 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:12:58.076  WARN 3448 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 18:12:59.070  WARN 3448 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:12:59.070  INFO 3448 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:12:59.082  WARN 3448 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:12:59.083  INFO 3448 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:12:59.677  INFO 3448 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:12:59.831  INFO 3448 --- [Test worker] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 18:13:00.552  INFO 3448 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 18:13:00.590  INFO 3448 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:13:00.592  INFO 3448 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 18:13:00.594  INFO 3448 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:13:02.442  INFO 3448 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 18:13:02.583  INFO 3448 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : Started SpringCloudDemoApplicationTests in 14.43 seconds (JVM running for 16.457)
+2020-08-10 18:13:02.638  INFO 3448 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:13:02.642  INFO 3448 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:13:02.643  INFO 3448 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:13:02.643  INFO 3448 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:13:02.644  INFO 3448 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:13:02.645  INFO 3448 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:33:52.257  INFO 5736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:33:52.662  INFO 5736 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 18:33:52.712  INFO 5736 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 18:33:52.767  WARN 5736 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 18:33:52.782  WARN 5736 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 18:33:52.796  INFO 5736 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 18:33:52.804  INFO 5736 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 18:33:52.908  INFO 5736 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-10 18:33:54.188  WARN 5736 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:33:54.192  WARN 5736 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:33:54.827  INFO 5736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 18:33:54.941  INFO 5736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 1 repository interfaces.
+2020-08-10 18:33:55.077  WARN 5736 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:33:55.309  INFO 5736 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2bd34980-a254-326c-ae9c-d6ecd7bf9ebf
+2020-08-10 18:33:55.646  INFO 5736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:33:56.111  INFO 5736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:33:56.217  INFO 5736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:33:56.247  INFO 5736 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:33:58.460  INFO 5736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-10 18:33:58.650  INFO 5736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-10 18:33:58.651  INFO 5736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-10 18:33:58.918  INFO 5736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-10 18:33:58.919  INFO 5736 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5965 ms
+2020-08-10 18:33:59.656  INFO 5736 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:33:59.656  INFO 5736 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 18:33:59.657  INFO 5736 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:34:00.309  INFO 5736 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 18:34:00.479  INFO 5736 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 18:34:00.945  INFO 5736 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 18:34:01.225  INFO 5736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 18:34:01.582  INFO 5736 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 18:34:01.611  INFO 5736 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 18:34:03.902  INFO 5736 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 18:34:03.912  INFO 5736 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:34:04.955  WARN 5736 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 18:34:05.094  INFO 5736 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static com.example.repository.ExcelEntityRepository com.example.controller.TestController.excelEntityRepository
+2020-08-10 18:34:05.094  INFO 5736 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static com.example.repository.ExcelEntityRepository com.example.controller.TestController.excelEntityRepository
+2020-08-10 18:34:05.110  WARN 5736 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:34:05.110  INFO 5736 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:34:05.116  WARN 5736 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:34:05.116  INFO 5736 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:34:05.657  INFO 5736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:34:05.714  INFO 5736 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 18:34:05.861  INFO 5736 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 18:34:06.709  INFO 5736 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 18:34:07.052  INFO 5736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-10 18:34:07.055  INFO 5736 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.10.10.71","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0} to beat map.
+2020-08-10 18:34:07.230  INFO 5736 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 registering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8007,"weight":1.0}
+2020-08-10 18:34:07.266  INFO 5736 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP spring-cloud-demo 10.10.10.71:8007 register finished
+2020-08-10 18:34:07.394  INFO 5736 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 16.725 seconds (JVM running for 18.003)
+2020-08-10 18:34:07.402  INFO 5736 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:34:07.404  INFO 5736 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:34:07.404  INFO 5736 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:34:07.404  INFO 5736 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:34:07.405  INFO 5736 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:34:07.406  INFO 5736 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:34:07.894  INFO 5736 --- [RMI TCP Connection(5)-10.10.10.71] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 18:34:07.895  INFO 5736 --- [RMI TCP Connection(5)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-10 18:34:07.998  INFO 5736 --- [RMI TCP Connection(5)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Completed initialization in 103 ms
+2020-08-10 18:35:06.792  INFO 5736 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-08-10 18:35:06.792  INFO 5736 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@spring-cloud-demo:10.10.10.71:8007 from beat map.
+2020-08-10 18:35:06.793  INFO 5736 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 deregistering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{},"port":8007,"weight":1.0}
+2020-08-10 18:35:06.803  INFO 5736 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2020-08-10 18:35:06.805  INFO 5736 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:35:06.814  INFO 5736 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:35:06.819  INFO 5736 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 18:35:06.838  INFO 5736 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 18:43:40.369  INFO 7552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:43:40.754  INFO 7552 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 18:43:40.801  INFO 7552 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 18:43:40.849  WARN 7552 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 18:43:40.864  WARN 7552 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 18:43:40.879  INFO 7552 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 18:43:40.886  INFO 7552 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 18:43:40.970  INFO 7552 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-10 18:43:42.089  WARN 7552 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:43:42.097  WARN 7552 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:43:42.468  INFO 7552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 18:43:42.571  INFO 7552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 1 repository interfaces.
+2020-08-10 18:43:42.707  WARN 7552 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:43:42.924  INFO 7552 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2bd34980-a254-326c-ae9c-d6ecd7bf9ebf
+2020-08-10 18:43:43.195  INFO 7552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:43:43.631  INFO 7552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:43:43.726  INFO 7552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:43:43.753  INFO 7552 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:43:44.140  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-10 18:43:44.166  INFO 7552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-10 18:43:44.167  INFO 7552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-10 18:43:44.278  INFO 7552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-10 18:43:44.278  INFO 7552 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3265 ms
+2020-08-10 18:43:44.706  INFO 7552 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:43:44.707  INFO 7552 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 18:43:44.707  INFO 7552 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:43:45.222  INFO 7552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 18:43:45.373  INFO 7552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 18:43:45.628  INFO 7552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 18:43:45.805  INFO 7552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 18:43:46.042  INFO 7552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 18:43:46.065  INFO 7552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 18:43:47.198  INFO 7552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 18:43:47.217  INFO 7552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:44:17.389  WARN 7552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 18:44:17.748  WARN 7552 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:44:17.748  INFO 7552 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:44:17.763  WARN 7552 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:44:17.763  INFO 7552 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:44:18.840  INFO 7552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:44:18.951  INFO 7552 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 18:44:19.170  INFO 7552 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 18:44:19.963  INFO 7552 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 18:44:20.169  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-10 18:44:20.177  INFO 7552 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.10.10.71","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0} to beat map.
+2020-08-10 18:44:20.311  INFO 7552 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 registering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8007,"weight":1.0}
+2020-08-10 18:44:20.350  INFO 7552 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP spring-cloud-demo 10.10.10.71:8007 register finished
+2020-08-10 18:44:20.489  INFO 7552 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 41.673 seconds (JVM running for 42.835)
+2020-08-10 18:44:20.497  INFO 7552 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:44:20.497  INFO 7552 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:44:20.498  INFO 7552 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:44:20.498  INFO 7552 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:44:20.499  INFO 7552 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:44:20.499  INFO 7552 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:44:20.737  INFO 7552 --- [RMI TCP Connection(1)-10.10.10.71] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 18:44:20.738  INFO 7552 --- [RMI TCP Connection(1)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-10 18:44:20.761  INFO 7552 --- [RMI TCP Connection(1)-10.10.10.71] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2020-08-10 18:45:25.930  INFO 2600 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:45:27.067  INFO 2600 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 18:45:28.007  INFO 2600 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 18:45:28.267  WARN 2600 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 18:45:28.280  WARN 2600 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 18:45:28.300  INFO 2600 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 18:45:28.311  INFO 2600 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 18:45:28.579  INFO 2600 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 18:45:30.756  WARN 2600 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:45:30.763  WARN 2600 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:45:31.528  INFO 2600 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 18:45:32.724  INFO 2600 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1175ms. Found 1 repository interfaces.
+2020-08-10 18:45:32.989  WARN 2600 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:45:33.428  INFO 2600 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=34e1e45b-42bf-3e64-a1c6-926f04a39b09
+2020-08-10 18:45:35.023  INFO 2600 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:45:37.930  INFO 2600 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:45:38.173  INFO 2600 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:45:38.273  INFO 2600 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:45:39.261  INFO 2600 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 18:45:39.424  INFO 2600 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 18:45:40.212  INFO 2600 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 18:45:40.752  INFO 2600 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 18:45:41.159  INFO 2600 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 18:45:41.224  INFO 2600 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 18:45:43.493  INFO 2600 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 18:45:43.513  INFO 2600 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:45:56.437  WARN 2600 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 18:45:58.091  WARN 2600 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:45:58.092  INFO 2600 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:45:58.157  WARN 2600 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:45:58.157  INFO 2600 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:45:59.207  INFO 2600 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:45:59.459  INFO 2600 --- [Test worker] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 18:46:00.609  INFO 2600 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 18:46:00.690  INFO 2600 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:46:00.691  INFO 2600 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 18:46:00.692  INFO 2600 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:46:03.532  INFO 2600 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 18:46:03.764  INFO 2600 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : Started SpringCloudDemoApplicationTests in 41.054 seconds (JVM running for 43.982)
+2020-08-10 18:46:03.852  INFO 2600 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:46:03.865  INFO 2600 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:46:03.866  INFO 2600 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:46:03.867  INFO 2600 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:46:03.868  INFO 2600 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:46:03.869  INFO 2600 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:46:47.417  INFO 7552 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-08-10 18:46:47.418  INFO 7552 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@spring-cloud-demo:10.10.10.71:8007 from beat map.
+2020-08-10 18:46:47.419  INFO 7552 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 deregistering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.10.10.71","ipDeleteTimeout":30000,"metadata":{},"port":8007,"weight":1.0}
+2020-08-10 18:46:47.430  INFO 7552 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2020-08-10 18:46:47.431  INFO 7552 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:46:47.437  INFO 7552 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:46:47.536  INFO 7552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 18:46:47.609  INFO 7552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 18:47:58.524  INFO 9124 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:47:59.263  INFO 9124 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 18:47:59.349  INFO 9124 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 18:47:59.453  WARN 9124 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 18:47:59.471  WARN 9124 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 18:47:59.495  INFO 9124 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 18:47:59.505  INFO 9124 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 18:47:59.680  INFO 9124 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 18:48:01.750  WARN 9124 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:48:01.757  WARN 9124 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:48:02.463  INFO 9124 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 18:48:02.679  INFO 9124 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 197ms. Found 1 repository interfaces.
+2020-08-10 18:48:02.892  WARN 9124 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:48:03.347  INFO 9124 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=34e1e45b-42bf-3e64-a1c6-926f04a39b09
+2020-08-10 18:48:04.309  INFO 9124 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:48:05.059  INFO 9124 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:48:05.282  INFO 9124 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:48:05.367  INFO 9124 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:48:05.997  INFO 9124 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 18:48:06.248  INFO 9124 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 18:48:06.805  INFO 9124 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 18:48:07.275  INFO 9124 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 18:48:07.755  INFO 9124 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 18:48:07.792  INFO 9124 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 18:48:09.908  INFO 9124 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 18:48:09.926  INFO 9124 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:48:15.086  WARN 9124 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 18:48:16.617  WARN 9124 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:48:16.617  INFO 9124 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:48:16.631  WARN 9124 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:48:16.631  INFO 9124 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:48:17.602  INFO 9124 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:48:17.775  INFO 9124 --- [Test worker] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 18:48:18.815  INFO 9124 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 18:48:18.865  INFO 9124 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:48:18.874  INFO 9124 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 18:48:18.876  INFO 9124 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:48:21.494  INFO 9124 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 18:48:21.762  INFO 9124 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : Started SpringCloudDemoApplicationTests in 25.488 seconds (JVM running for 28.502)
+2020-08-10 18:48:21.857  INFO 9124 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:48:21.861  INFO 9124 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:48:21.862  INFO 9124 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:48:21.862  INFO 9124 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:48:21.864  INFO 9124 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:48:21.865  INFO 9124 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:49:24.651  INFO 9124 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:49:24.686  INFO 9124 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:49:24.713  INFO 9124 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 18:49:24.752  INFO 9124 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-10 18:50:08.572  INFO 5196 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:50:09.292  INFO 5196 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 18:50:09.425  INFO 5196 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 18:50:09.521  WARN 5196 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 18:50:09.536  WARN 5196 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 18:50:09.557  INFO 5196 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 18:50:09.565  INFO 5196 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 18:50:09.734  INFO 5196 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 18:50:11.748  WARN 5196 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:50:11.759  WARN 5196 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:50:12.390  INFO 5196 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 18:50:12.605  INFO 5196 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 190ms. Found 1 repository interfaces.
+2020-08-10 18:50:12.821  WARN 5196 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:50:13.290  INFO 5196 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=34e1e45b-42bf-3e64-a1c6-926f04a39b09
+2020-08-10 18:50:14.308  INFO 5196 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:50:14.969  INFO 5196 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:50:15.198  INFO 5196 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:50:15.290  INFO 5196 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:50:15.996  INFO 5196 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 18:50:16.280  INFO 5196 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 18:50:16.909  INFO 5196 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 18:50:17.363  INFO 5196 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 18:50:17.894  INFO 5196 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 18:50:17.951  INFO 5196 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 18:50:20.215  INFO 5196 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 18:50:20.239  INFO 5196 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:50:23.594  WARN 5196 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 18:50:25.063  WARN 5196 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:50:25.064  INFO 5196 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:50:25.077  WARN 5196 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:50:25.078  INFO 5196 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:50:26.082  INFO 5196 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:50:26.277  INFO 5196 --- [Test worker] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 18:50:27.282  INFO 5196 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 18:50:27.343  INFO 5196 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:50:27.344  INFO 5196 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 18:50:27.346  INFO 5196 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:50:29.864  INFO 5196 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 18:50:30.180  INFO 5196 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : Started SpringCloudDemoApplicationTests in 23.715 seconds (JVM running for 26.509)
+2020-08-10 18:50:30.262  INFO 5196 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:50:30.265  INFO 5196 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:50:30.266  INFO 5196 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:50:30.266  INFO 5196 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:50:30.268  INFO 5196 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:50:30.268  INFO 5196 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:51:50.932  INFO 2872 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:51:51.640  INFO 2872 --- [Test worker] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-10 18:51:51.768  INFO 2872 --- [Test worker] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-10 18:51:51.849  WARN 2872 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-10 18:51:51.867  WARN 2872 --- [Test worker] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-10 18:51:51.883  INFO 2872 --- [Test worker] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-10 18:51:51.894  INFO 2872 --- [Test worker] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-10 18:51:52.071  INFO 2872 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : The following profiles are active: dev
+2020-08-10 18:51:53.995  WARN 2872 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:51:54.003  WARN 2872 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:51:54.622  INFO 2872 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 18:51:54.807  INFO 2872 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 167ms. Found 1 repository interfaces.
+2020-08-10 18:51:55.013  WARN 2872 --- [Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-10 18:51:55.473  INFO 2872 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=34e1e45b-42bf-3e64-a1c6-926f04a39b09
+2020-08-10 18:51:56.441  INFO 2872 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:51:57.193  INFO 2872 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:51:57.431  INFO 2872 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:51:57.514  INFO 2872 --- [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 18:51:58.166  INFO 2872 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-10 18:51:58.376  INFO 2872 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-10 18:51:59.002  INFO 2872 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-10 18:51:59.463  INFO 2872 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-10 18:52:00.011  INFO 2872 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-10 18:52:00.044  INFO 2872 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-10 18:52:02.061  INFO 2872 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-10 18:52:02.081  INFO 2872 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:52:50.993  WARN 2872 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s880ms157?s648ns).
+2020-08-10 18:52:51.392  WARN 2872 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 18:52:53.085  WARN 2872 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:52:53.086  INFO 2872 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:52:53.110  WARN 2872 --- [Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-10 18:52:53.111  INFO 2872 --- [Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-10 18:52:54.142  INFO 2872 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:52:54.349  INFO 2872 --- [Test worker] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-10 18:52:55.423  INFO 2872 --- [Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-10 18:52:55.467  INFO 2872 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:52:55.469  INFO 2872 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-10 18:52:55.470  INFO 2872 --- [Test worker] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-10 18:52:58.195  INFO 2872 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-10 18:52:58.439  INFO 2872 --- [Test worker] c.e.SpringCloudDemoApplicationTests      : Started SpringCloudDemoApplicationTests in 69.677 seconds (JVM running for 72.538)
+2020-08-10 18:52:58.551  INFO 2872 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:52:58.555  INFO 2872 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:52:58.556  INFO 2872 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:52:58.557  INFO 2872 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:52:58.559  INFO 2872 --- [Test worker] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-10 18:52:58.560  INFO 2872 --- [Test worker] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-10 18:53:43.483  INFO 2872 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-10 18:53:43.494  INFO 2872 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 18:53:43.498  INFO 2872 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-10 18:53:43.531  INFO 2872 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

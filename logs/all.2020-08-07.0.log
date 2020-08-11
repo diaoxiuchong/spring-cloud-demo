@@ -1,0 +1,535 @@
+2020-08-07 11:49:31.645  INFO 2904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 11:49:32.090  INFO 2904 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-07 11:49:32.124  INFO 2904 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-07 11:49:32.165  WARN 2904 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-07 11:49:32.179  WARN 2904 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-07 11:49:32.192  INFO 2904 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-07 11:49:32.197  INFO 2904 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-07 11:49:32.267  INFO 2904 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-07 11:49:33.226  WARN 2904 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-07 11:49:33.230  WARN 2904 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-07 11:49:33.526  INFO 2904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-07 11:49:33.545  INFO 2904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-08-07 11:49:33.627  WARN 2904 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-07 11:49:33.810  INFO 2904 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3d380e54-b83a-318e-ade8-8fa22ca09c6a
+2020-08-07 11:49:34.089  INFO 2904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 11:49:34.348  INFO 2904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 11:49:34.466  INFO 2904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 11:49:34.481  INFO 2904 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 11:49:34.849  INFO 2904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-07 11:49:34.862  INFO 2904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-07 11:49:34.863  INFO 2904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-07 11:49:34.939  INFO 2904 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-07 11:49:34.939  INFO 2904 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2642 ms
+2020-08-07 11:49:35.253  INFO 2904 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-07 11:49:35.255  INFO 2904 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-07 11:49:35.255  INFO 2904 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-07 11:49:35.645  INFO 2904 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-07 11:49:35.732  INFO 2904 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-07 11:49:35.933  INFO 2904 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-07 11:49:36.083  INFO 2904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-07 11:49:36.770  INFO 2904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-07 11:49:36.790  INFO 2904 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-07 11:49:38.203  INFO 2904 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-07 11:49:38.218  INFO 2904 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-07 11:49:38.528  WARN 2904 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-07 11:49:38.704  WARN 2904 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-07 11:49:38.704  INFO 2904 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-07 11:49:38.711  WARN 2904 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-07 11:49:38.711  INFO 2904 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-07 11:49:38.994  INFO 2904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 11:49:39.040  INFO 2904 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-07 11:49:39.155  INFO 2904 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-07 11:49:40.019  INFO 2904 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-07 11:49:40.181  INFO 2904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-07 11:49:40.186  INFO 2904 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.10.10.81","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0} to beat map.
+2020-08-07 11:49:40.291  INFO 2904 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 registering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.10.10.81","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8007,"weight":1.0}
+2020-08-07 11:49:40.310  INFO 2904 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP spring-cloud-demo 10.10.10.81:8007 register finished
+2020-08-07 11:49:40.405  INFO 2904 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 9.993 seconds (JVM running for 13.818)
+2020-08-07 11:49:40.413  INFO 2904 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-07 11:49:40.414  INFO 2904 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-07 11:49:40.414  INFO 2904 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-07 11:49:40.415  INFO 2904 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-07 11:49:40.415  INFO 2904 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-07 11:49:40.415  INFO 2904 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-07 11:49:40.784  INFO 2904 --- [RMI TCP Connection(3)-10.10.10.81] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 11:49:40.785  INFO 2904 --- [RMI TCP Connection(3)-10.10.10.81] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-07 11:49:40.795  INFO 2904 --- [RMI TCP Connection(3)-10.10.10.81] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-08-07 12:46:37.515 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.c.config.http.ServerHttpAgent      : [NACOS SocketTimeoutException httpPost] currentServerAddr: http://39.96.1.212:8848， err : Read timed out
+2020-08-07 12:46:37.531 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.c.config.http.ServerHttpAgent      : no available server, currentServerAddr : http://39.96.1.212:8848
+2020-08-07 12:46:37.515  WARN 2904 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m59s945ms289µs433ns).
+2020-08-07 12:46:37.531 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [check-update] get changed dataId exception
+
+java.net.ConnectException: no available server, currentServerAddr : http://39.96.1.212:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 12:46:37.531 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.client.config.impl.ClientWorker    : longPolling error : 
+
+java.net.ConnectException: no available server, currentServerAddr : http://39.96.1.212:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 12:46:37.531  WARN 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : failed to request http://39.96.1.212:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%2210.10.10.81%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A8007%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40spring-cloud-demo%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&app=spring-cloud-demo&serviceName=DEFAULT_GROUP%40%40spring-cloud-demo&encoding=UTF-8&namespaceId=94055580-e898-4388-9f6b-31cf1c699b93 from 39.96.1.212
+2020-08-07 12:46:37.531 ERROR 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [NA] failed to request 
+
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:85)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:413)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:454)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 12:46:37.609 ERROR 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : request 39.96.1.212:8848 failed.
+
+com.alibaba.nacos.api.exception.NacosException: failed to req API:39.96.1.212:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.NoRouteToHostException: No route to host: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:454)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 12:46:37.609 ERROR 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [CLIENT-BEAT] failed to send beat: {"cluster":"DEFAULT","ip":"10.10.10.81","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0}
+
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([39.96.1.212:8848]) tried: failed to req API:39.96.1.212:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.NoRouteToHostException: No route to host: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 12:46:39.560 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.c.config.http.ServerHttpAgent      : [NACOS IOException httpPost] currentServerAddr: http://39.96.1.212:8848
+
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at com.alibaba.nacos.client.config.impl.HttpSimpleClient.httpPost(HttpSimpleClient.java:123)
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:135)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 12:46:39.560 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [check-update] get changed dataId exception
+
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at com.alibaba.nacos.client.config.impl.HttpSimpleClient.httpPost(HttpSimpleClient.java:123)
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:135)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 12:46:39.560 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.client.config.impl.ClientWorker    : longPolling error : 
+
+java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at com.alibaba.nacos.client.config.impl.HttpSimpleClient.httpPost(HttpSimpleClient.java:123)
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:135)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 13:15:16.491 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.c.config.http.ServerHttpAgent      : [NACOS SocketTimeoutException httpPost] currentServerAddr: http://39.96.1.212:8848， err : Read timed out
+2020-08-07 13:15:16.493 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.c.config.http.ServerHttpAgent      : no available server, currentServerAddr : http://39.96.1.212:8848
+2020-08-07 13:15:16.494 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [check-update] get changed dataId exception
+
+java.net.ConnectException: no available server, currentServerAddr : http://39.96.1.212:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 13:15:16.502 ERROR 2904 --- [com.alibaba.nacos.client.Worker.longPolling.fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] c.a.n.client.config.impl.ClientWorker    : longPolling error : 
+
+java.net.ConnectException: no available server, currentServerAddr : http://39.96.1.212:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:170)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:64)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:377)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:352)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:512)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 13:24:29.297  WARN 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : failed to request http://39.96.1.212:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%2210.10.10.81%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A8007%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40spring-cloud-demo%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&app=spring-cloud-demo&serviceName=DEFAULT_GROUP%40%40spring-cloud-demo&encoding=UTF-8&namespaceId=94055580-e898-4388-9f6b-31cf1c699b93 from 39.96.1.212
+2020-08-07 13:24:29.299 ERROR 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [NA] failed to request 
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:85)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:413)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:454)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 13:24:29.301 ERROR 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : request 39.96.1.212:8848 failed.
+
+com.alibaba.nacos.api.exception.NacosException: failed to req API:39.96.1.212:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:454)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 13:24:29.303 ERROR 2904 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [CLIENT-BEAT] failed to send beat: {"cluster":"DEFAULT","ip":"10.10.10.81","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0}
+
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([39.96.1.212:8848]) tried: failed to req API:39.96.1.212:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 13:34:01.291  INFO 2904 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-08-07 13:34:01.292  INFO 2904 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@spring-cloud-demo:10.10.10.81:8007 from beat map.
+2020-08-07 13:34:01.292  INFO 2904 --- [SpringContextShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 deregistering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"10.10.10.81","ipDeleteTimeout":30000,"metadata":{},"port":8007,"weight":1.0}
+2020-08-07 13:34:01.347  INFO 2904 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2020-08-07 13:34:01.349  INFO 2904 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-07 13:34:01.364  INFO 2904 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-07 13:34:01.381  INFO 2904 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-07 13:51:12.512  INFO 7732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 13:51:12.802  INFO 7732 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2020-08-07 13:51:12.837  INFO 7732 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2020-08-07 13:51:12.872  WARN 7732 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo] & group[DEFAULT_GROUP]
+2020-08-07 13:51:12.884  WARN 7732 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[spring-cloud-demo.properties] & group[DEFAULT_GROUP]
+2020-08-07 13:51:12.898  INFO 7732 --- [main] c.a.nacos.client.config.utils.JVMUtil    : isMultiInstance:false
+2020-08-07 13:51:12.902  INFO 7732 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='spring-cloud-demo-dev.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo.properties,DEFAULT_GROUP'}, NacosPropertySource {name='spring-cloud-demo,DEFAULT_GROUP'}]}
+2020-08-07 13:51:12.960  INFO 7732 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-07 13:51:13.823  WARN 7732 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-08-07 13:51:13.827  WARN 7732 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-07 13:51:14.114  INFO 7732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-07 13:51:14.134  INFO 7732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2020-08-07 13:51:14.232  WARN 7732 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-07 13:51:14.398  INFO 7732 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3d380e54-b83a-318e-ade8-8fa22ca09c6a
+2020-08-07 13:51:14.590  INFO 7732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 13:51:14.831  INFO 7732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 13:51:14.931  INFO 7732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 13:51:14.947  INFO 7732 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-07 13:51:15.322  INFO 7732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-07 13:51:15.335  INFO 7732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-07 13:51:15.335  INFO 7732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-07 13:51:15.421  INFO 7732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-07 13:51:15.421  INFO 7732 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2441 ms
+2020-08-07 13:51:15.750  INFO 7732 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-07 13:51:15.751  INFO 7732 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-08-07 13:51:15.751  INFO 7732 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-08-07 13:51:16.144  INFO 7732 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-07 13:51:16.224  INFO 7732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-07 13:51:16.406  INFO 7732 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-07 13:51:16.547  INFO 7732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-07 13:51:16.745  INFO 7732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-07 13:51:16.762  INFO 7732 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-07 13:51:17.686  INFO 7732 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-07 13:51:17.695  INFO 7732 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-07 13:51:17.835  WARN 7732 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-07 13:51:17.951  WARN 7732 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-07 13:51:17.951  INFO 7732 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-07 13:51:17.957  WARN 7732 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-07 13:51:17.957  INFO 7732 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-07 13:51:18.139  INFO 7732 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 13:51:18.189  INFO 7732 --- [main] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/*].
+2020-08-07 13:51:18.317  INFO 7732 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-07 13:51:19.103  INFO 7732 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-07 13:51:19.320  INFO 7732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-07 13:51:19.327  INFO 7732 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"10.10.10.81","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0} to beat map.
+2020-08-07 13:51:19.425  INFO 7732 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] 94055580-e898-4388-9f6b-31cf1c699b93 registering service DEFAULT_GROUP@@spring-cloud-demo with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"10.10.10.81","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8007,"weight":1.0}
+2020-08-07 13:51:19.444  INFO 7732 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP spring-cloud-demo 10.10.10.81:8007 register finished
+2020-08-07 13:51:19.546  INFO 7732 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 8.367 seconds (JVM running for 9.486)
+2020-08-07 13:51:19.553  INFO 7732 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-07 13:51:19.554  INFO 7732 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-07 13:51:19.554  INFO 7732 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-07 13:51:19.554  INFO 7732 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo, group=DEFAULT_GROUP, cnt=1
+2020-08-07 13:51:19.555  INFO 7732 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [subscribe] spring-cloud-demo-dev.properties+DEFAULT_GROUP+94055580-e898-4388-9f6b-31cf1c699b93
+2020-08-07 13:51:19.555  INFO 7732 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-39.96.1.212_8848-94055580-e898-4388-9f6b-31cf1c699b93] [add-listener] ok, tenant=94055580-e898-4388-9f6b-31cf1c699b93, dataId=spring-cloud-demo-dev.properties, group=DEFAULT_GROUP, cnt=1
+2020-08-07 13:51:19.671  INFO 7732 --- [RMI TCP Connection(1)-10.10.10.81] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 13:51:19.671  INFO 7732 --- [RMI TCP Connection(1)-10.10.10.81] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-07 13:51:19.686  INFO 7732 --- [RMI TCP Connection(1)-10.10.10.81] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-07 13:56:52.339  INFO 7732 --- [http-nio-8007-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: spring-cloud-two.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-07 13:56:52.373  INFO 7732 --- [http-nio-8007-exec-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: spring-cloud-two instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=spring-cloud-two,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-08-07 13:56:52.391  INFO 7732 --- [http-nio-8007-exec-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-08-07 13:56:52.443  INFO 7732 --- [http-nio-8007-exec-1] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@spring-cloud-two -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.10.10.81#8008#DEFAULT#DEFAULT_GROUP@@spring-cloud-two","ip":"10.10.10.81","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8008,"serviceName":"DEFAULT_GROUP@@spring-cloud-two","weight":1.0}]
+2020-08-07 13:56:52.448  INFO 7732 --- [http-nio-8007-exec-1] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@spring-cloud-two -> [{"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"10.10.10.81#8008#DEFAULT#DEFAULT_GROUP@@spring-cloud-two","ip":"10.10.10.81","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8008,"serviceName":"DEFAULT_GROUP@@spring-cloud-two","weight":1.0}]
+2020-08-07 13:56:52.466  INFO 7732 --- [http-nio-8007-exec-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: spring-cloud-two.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-07 13:56:52.468  INFO 7732 --- [http-nio-8007-exec-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client spring-cloud-two initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=spring-cloud-two,current list of Servers=[10.10.10.81:8008],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:10.10.10.81:8008;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@72826833
+2020-08-07 13:56:53.397  INFO 7732 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: spring-cloud-two.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-07 15:27:12.912  WARN 7732 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : failed to request http://39.96.1.212:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%2210.10.10.81%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A8007%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40spring-cloud-demo%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&app=spring-cloud-demo&serviceName=DEFAULT_GROUP%40%40spring-cloud-demo&encoding=UTF-8&namespaceId=94055580-e898-4388-9f6b-31cf1c699b93 from 39.96.1.212
+2020-08-07 15:27:13.609 ERROR 7732 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [NA] failed to request 
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:85)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:413)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:454)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 15:27:13.740 ERROR 7732 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : request 39.96.1.212:8848 failed.
+
+com.alibaba.nacos.api.exception.NacosException: failed to req API:39.96.1.212:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:454)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 15:27:13.804 ERROR 7732 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [CLIENT-BEAT] failed to send beat: {"cluster":"DEFAULT","ip":"10.10.10.81","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8007,"scheduled":false,"serviceName":"DEFAULT_GROUP@@spring-cloud-demo","stopped":false,"weight":1.0}
+
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([39.96.1.212:8848]) tried: failed to req API:39.96.1.212:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:312)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-08-07 16:55:24.478  INFO 7732 --- [Thread-44] c.n.l.PollingServerListUpdater           : Shutting down the Executor Pool for PollingServerListUpdater
