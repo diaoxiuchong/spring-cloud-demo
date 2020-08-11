@@ -1,6 +1,6 @@
 package com.example.rest;
 
-import org.springframework.cloud.openfeign.FeignClient;
+//import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @Description:
  */
 
-@FeignClient(name= "spring-cloud-two")
+//@FeignClient(name= "spring-cloud-two")
 public interface HelloRemote {
 
     //这个接口要和远程调用的接口，参数，接口名，返回类型 一致
