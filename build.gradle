@@ -63,7 +63,7 @@ dependencies {
     compile group: 'com.alipay.sdk', name: 'alipay-easysdk', version: '1.2.1'
     compile group: 'com.alipay.sdk', name: 'alipay-sdk-java', version: '3.4.27.ALL'
     compile group: 'commons-io', name: 'commons-io', version: '2.6'
-    compile group: 'com.alibaba', name: 'easyexcel', version: '2.2.6'
+    compile group: 'com.alibaba', name: 'easyexcel', version: '2.2.6'//导入导出功能
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
