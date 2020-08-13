@@ -1,0 +1,90 @@
+2020-08-12 17:18:16.430  INFO 4848 --- [main] com.example.SpringCloudDemoApplication   : Starting SpringCloudDemoApplication on USER-20171101QG with PID 4848 (D:\workspace\spring-cloud-demo\build\classes\java\main started by Administrator in D:\workspace\spring-cloud-demo)
+2020-08-12 17:18:16.439  INFO 4848 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-12 17:18:19.230  INFO 4848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-12 17:18:19.390  INFO 4848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108ms. Found 1 repository interfaces.
+2020-08-12 17:18:20.088  INFO 4848 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-12 17:18:20.947  INFO 4848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-12 17:18:21.047  INFO 4848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 17:18:21.049  INFO 4848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-12 17:18:21.351  INFO 4848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 17:18:21.352  INFO 4848 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4764 ms
+2020-08-12 17:18:22.322  INFO 4848 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 17:18:22.491  INFO 4848 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-12 17:18:23.090  INFO 4848 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 17:18:23.282  INFO 4848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 17:18:23.705  INFO 4848 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 17:18:23.761  INFO 4848 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-12 17:18:26.409  INFO 4848 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 17:18:26.449  INFO 4848 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 17:18:27.105  WARN 4848 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 17:18:27.294  INFO 4848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 17:18:27.762  INFO 4848 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-12 17:18:27.860  INFO 4848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-12 17:18:27.863  INFO 4848 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 12.173 seconds (JVM running for 15.217)
+2020-08-12 17:18:28.084  INFO 4848 --- [RMI TCP Connection(4)-10.10.10.110] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 17:18:28.085  INFO 4848 --- [RMI TCP Connection(4)-10.10.10.110] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 17:18:28.104  INFO 4848 --- [RMI TCP Connection(4)-10.10.10.110] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-08-12 17:25:59.045  INFO 4848 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 17:25:59.046  INFO 4848 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 17:25:59.048  INFO 4848 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 17:25:59.068  INFO 4848 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 17:46:47.459  INFO 2956 --- [main] com.example.SpringCloudDemoApplication   : Starting SpringCloudDemoApplication on USER-20171101QG with PID 2956 (D:\workspace\spring-cloud-demo\build\classes\java\main started by Administrator in D:\workspace\spring-cloud-demo)
+2020-08-12 17:46:47.465  INFO 2956 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-12 17:46:48.642  INFO 2956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-12 17:46:48.734  INFO 2956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 1 repository interfaces.
+2020-08-12 17:46:49.079  INFO 2956 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-12 17:46:49.420  INFO 2956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-12 17:46:49.434  INFO 2956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 17:46:49.435  INFO 2956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-12 17:46:49.521  INFO 2956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 17:46:49.521  INFO 2956 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1948 ms
+2020-08-12 17:46:50.027  INFO 2956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 17:46:50.116  INFO 2956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-12 17:46:50.308  INFO 2956 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 17:46:50.446  INFO 2956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 17:46:50.650  INFO 2956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 17:46:50.667  INFO 2956 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-12 17:46:51.700  INFO 2956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 17:46:51.721  INFO 2956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 17:46:52.070  WARN 2956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 17:46:52.222  INFO 2956 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 17:46:52.595  INFO 2956 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-12 17:46:52.674  INFO 2956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-12 17:46:52.676  INFO 2956 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 5.89 seconds (JVM running for 7.007)
+2020-08-12 17:46:53.010  INFO 2956 --- [RMI TCP Connection(3)-10.10.10.110] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 17:46:53.010  INFO 2956 --- [RMI TCP Connection(3)-10.10.10.110] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 17:46:53.022  INFO 2956 --- [RMI TCP Connection(3)-10.10.10.110] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-08-12 17:50:54.413  INFO 2956 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 17:50:54.414  INFO 2956 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 17:50:54.416  INFO 2956 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 17:50:54.425  INFO 2956 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 17:51:47.810  INFO 7900 --- [main] com.example.SpringCloudDemoApplication   : Starting SpringCloudDemoApplication on USER-20171101QG with PID 7900 (D:\workspace\spring-cloud-demo\build\classes\java\main started by Administrator in D:\workspace\spring-cloud-demo)
+2020-08-12 17:51:47.815  INFO 7900 --- [main] com.example.SpringCloudDemoApplication   : The following profiles are active: dev
+2020-08-12 17:51:49.020  INFO 7900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-12 17:51:49.117  INFO 7900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 repository interfaces.
+2020-08-12 17:51:49.483  INFO 7900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-12 17:51:49.817  INFO 7900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8007 (http)
+2020-08-12 17:51:49.829  INFO 7900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 17:51:49.830  INFO 7900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-08-12 17:51:49.911  INFO 7900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 17:51:49.911  INFO 7900 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1986 ms
+2020-08-12 17:51:50.451  INFO 7900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 17:51:50.541  INFO 7900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2020-08-12 17:51:50.731  INFO 7900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 17:51:50.884  INFO 7900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 17:51:51.090  INFO 7900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 17:51:51.107  INFO 7900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-12 17:51:52.179  INFO 7900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 17:51:52.201  INFO 7900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 17:51:52.551  WARN 7900 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 17:51:52.698  INFO 7900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 17:51:53.087  INFO 7900 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-12 17:51:53.179  INFO 7900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8007 (http) with context path ''
+2020-08-12 17:51:53.184  INFO 7900 --- [main] com.example.SpringCloudDemoApplication   : Started SpringCloudDemoApplication in 6.127 seconds (JVM running for 7.208)
+2020-08-12 17:51:53.335  INFO 7900 --- [RMI TCP Connection(1)-10.10.10.110] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 17:51:53.335  INFO 7900 --- [RMI TCP Connection(1)-10.10.10.110] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 17:51:53.350  INFO 7900 --- [RMI TCP Connection(1)-10.10.10.110] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-12 17:52:32.101  INFO 7900 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 17:52:32.102  INFO 7900 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 17:52:32.105  INFO 7900 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 17:52:32.114  INFO 7900 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
