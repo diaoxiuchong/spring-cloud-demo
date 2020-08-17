@@ -1,3 +1,4 @@
+/*
 package com.example.common;
 
 import com.alibaba.fastjson.JSONObject;
@@ -31,11 +32,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
+*/
 /**
  * @Author: xiuchong
  * @Date: 2020/8/14 17:30
  * @Description:
- */
+ *//*
+
 @Component
 public class ElasticsearchUtil {
 
@@ -46,20 +49,24 @@ public class ElasticsearchUtil {
 
     private static TransportClient client;
 
-    /**
+    */
+/**
      * @PostContruct是spring框架的注解 spring容器初始化的时候执行该方法
-     */
+     *//*
+
     @PostConstruct
     public void init() {
         client = this.transportClient;
     }
 
-    /**
+    */
+/**
      * 创建索引
      *
      * @param index
      * @return
-     */
+     *//*
+
     public static boolean createIndex(String index) {
         if (!isIndexExist(index)) {
             LOGGER.info("Index is not exits!");
@@ -69,12 +76,15 @@ public class ElasticsearchUtil {
         return indexresponse.isAcknowledged();
     }
 
-    /**
+    */
+/**
      * 删除索引
      *
      * @param index
      * @return
-     */
+     *//*
+
+*/
 /*    public static boolean deleteIndex(String index) {
         if (!isIndexExist(index)) {
             LOGGER.info("Index is not exits!");
@@ -86,14 +96,17 @@ public class ElasticsearchUtil {
             LOGGER.info("Fail to delete index " + index);
         }
         return dResponse.isAcknowledged();
-    }*/
+    }*//*
 
-    /**
+
+    */
+/**
      * 判断索引是否存在
      *
      * @param index
      * @return
-     */
+     *//*
+
     public static boolean isIndexExist(String index) {
         IndicesExistsResponse inExistsResponse = client.admin().indices().exists(new IndicesExistsRequest(index)).actionGet();
         if (inExistsResponse.isExists()) {
@@ -104,16 +117,19 @@ public class ElasticsearchUtil {
         return inExistsResponse.isExists();
     }
 
-    /**
+    */
+/**
      * @Description: 判断inde下指定type是否存在
-     */
+     *//*
+
     public boolean isTypeExist(String index, String type) {
         return isIndexExist(index)
                 ? client.admin().indices().prepareTypesExists(index).setTypes(type).execute().actionGet().isExists()
                 : false;
     }
 
-    /**
+    */
+/**
      * 数据添加，正定ID
      *
      * @param jsonObject 要增加的数据
@@ -121,32 +137,37 @@ public class ElasticsearchUtil {
      * @param type       类型，类似表
      * @param id         数据ID
      * @return
-     */
+     *//*
+
     public static String addData(JSONObject jsonObject, String index, String type, String id) {
         IndexResponse response = client.prepareIndex(index, type, id).setSource(jsonObject).get();
         LOGGER.info("addData response status:{},id:{}", response.status().getStatus(), response.getId());
         return response.getId();
     }
 
-    /**
+    */
+/**
      * 数据添加
      *
      * @param jsonObject 要增加的数据
      * @param index      索引，类似数据库
      * @param type       类型，类似表
      * @return
-     */
+     *//*
+
     public static String addData(JSONObject jsonObject, String index, String type) {
         return addData(jsonObject, index, type, UUID.randomUUID().toString().replaceAll("-", "").toUpperCase());
     }
 
-    /**
+    */
+/**
      * 通过ID删除数据
      *
      * @param index 索引，类似数据库
      * @param type  类型，类似表
      * @param id    数据ID
-     */
+     *//*
+
     public static void deleteDataById(String index, String type, String id) {
 
         DeleteResponse response = client.prepareDelete(index, type, id).execute().actionGet();
@@ -154,7 +175,8 @@ public class ElasticsearchUtil {
         LOGGER.info("deleteDataById response status:{},id:{}", response.status().getStatus(), response.getId());
     }
 
-    /**
+    */
+/**
      * 通过ID 更新数据
      *
      * @param jsonObject 要增加的数据
@@ -162,7 +184,8 @@ public class ElasticsearchUtil {
      * @param type       类型，类似表
      * @param id         数据ID
      * @return
-     */
+     *//*
+
     public static void updateDataById(JSONObject jsonObject, String index, String type, String id) {
 
         UpdateRequest updateRequest = new UpdateRequest();
@@ -173,7 +196,8 @@ public class ElasticsearchUtil {
 
     }
 
-    /**
+    */
+/**
      * 通过ID获取数据
      *
      * @param index  索引，类似数据库
@@ -181,7 +205,8 @@ public class ElasticsearchUtil {
      * @param id     数据ID
      * @param fields 需要显示的字段，逗号分隔（缺省为全部字段）
      * @return
-     */
+     *//*
+
     public static Map<String, Object> searchDataById(String index, String type, String id, String fields) {
 
         GetRequestBuilder getRequestBuilder = client.prepareGet(index, type, id);
@@ -196,7 +221,8 @@ public class ElasticsearchUtil {
     }
 
 
-    /**
+    */
+/**
      * 使用分词查询,并分页
      *
      * @param index          索引名称
@@ -208,7 +234,8 @@ public class ElasticsearchUtil {
      * @param sortField      排序字段
      * @param highlightField 高亮字段
      * @return
-     */
+     *//*
+
     public static EsPage searchDataPage(String index, String type, int startPage, int pageSize, QueryBuilder query, String fields, String sortField, String highlightField) {
         SearchRequestBuilder searchRequestBuilder = client.prepareSearch(index);
         if (StringUtils.isNotEmpty(type)) {
@@ -270,7 +297,8 @@ public class ElasticsearchUtil {
     }
 
 
-    /**
+    */
+/**
      * 使用分词查询
      *
      * @param index          索引名称
@@ -281,7 +309,8 @@ public class ElasticsearchUtil {
      * @param sortField      排序字段
      * @param highlightField 高亮字段
      * @return
-     */
+     *//*
+
     public static List<Map<String, Object>> searchListData(
             String index, String type, QueryBuilder query, Integer size,
             String fields, String sortField, String highlightField) {
@@ -332,12 +361,14 @@ public class ElasticsearchUtil {
     }
 
 
-    /**
+    */
+/**
      * 高亮结果集 特殊处理
      *
      * @param searchResponse
      * @param highlightField
-     */
+     *//*
+
     private static List<Map<String, Object>> setSearchResponse(SearchResponse searchResponse, String highlightField) {
         List<Map<String, Object>> sourceList = new ArrayList<Map<String, Object>>();
         StringBuffer stringBuffer = new StringBuffer();
@@ -364,3 +395,4 @@ public class ElasticsearchUtil {
     }
 }
 
+*/

@@ -1,3 +1,4 @@
+/*
 package com.example.config;
 
 import org.elasticsearch.client.transport.TransportClient;
@@ -12,46 +13,58 @@ import org.springframework.context.annotation.Configuration;
 
 import java.net.InetAddress;
 
+*/
 /**
  * @Author: xiuchong
  * @Date: 2020/8/14 17:28
  * @Description:
- */
+ *//*
+
 @Configuration
 public class ElasticSearchConfig {
 
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ElasticSearchConfig.class);
 
-    /**
+    */
+/**
      * elk集群地址
-     */
+     *//*
+
     @Value("${elasticsearch.ip}")
     private String hostName;
 
-    /**
+    */
+/**
      * 端口
-     */
+     *//*
+
     @Value("${elasticsearch.port}")
     private String port;
 
-    /**
+    */
+/**
      * 集群名称
-     */
+     *//*
+
     @Value("${elasticsearch.cluster.name}")
     private String clusterName;
 
-    /**
+    */
+/**
      * 连接池
-     */
+     *//*
+
     @Value("${elasticsearch.pool}")
     private String poolSize;
 
-    /**
+    */
+/**
      * Bean name default  函数名字
      *
      * @return
-     */
+     *//*
+
     @Bean(name = "transportClient")
     public TransportClient transportClient() {
         LOGGER.info("Elasticsearch初始化开始。。。。。");
@@ -73,3 +86,4 @@ public class ElasticSearchConfig {
         return transportClient;
     }
 }
+*/

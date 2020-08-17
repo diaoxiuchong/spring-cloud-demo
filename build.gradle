@@ -69,7 +69,7 @@ dependencies {
     runtime group: 'io.jsonwebtoken', name: 'jjwt-impl', version: '0.11.2'
     runtime group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.11.2'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.8.1'
-    compile('org.springframework.boot:spring-boot-starter-data-elasticsearch') //es集成
+    //compile('org.springframework.boot:spring-boot-starter-data-elasticsearch') //es集成
 
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {

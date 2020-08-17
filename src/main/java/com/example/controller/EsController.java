@@ -1,3 +1,4 @@
+/*
 package com.example.controller;
 
 import cn.hutool.core.date.DateUtil;
@@ -19,32 +20,40 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+*/
 /**
  * @Author: xiuchong
  * @Date: 2020/8/14 17:35
  * @Description:
- */
+ *//*
+
 @RestController
 @RequestMapping("/es")
 public class EsController {
 
-    /**
+    */
+/**
      * 测试索引
-     */
+     *//*
+
     private String indexName = "megacorp";
 
-    /**
+    */
+/**
      * 类型
-     */
+     *//*
+
     private String esType = "employee";
 
-    /**
+    */
+/**
      * 创建索引
      * http://127.0.0.1:8080/es/createIndex
      * @param request
      * @param response
      * @return
-     */
+     *//*
+
     @RequestMapping("/createIndex")
     public String createIndex(HttpServletRequest request, HttpServletResponse response) {
         if (!ElasticsearchUtil.isIndexExist(indexName)) {
@@ -55,11 +64,13 @@ public class EsController {
         return "索引创建成功";
     }
 
-    /**
+    */
+/**
      * 插入记录
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/insertJson")
     public String insertJson() {
         JSONObject jsonObject = new JSONObject();
@@ -73,11 +84,13 @@ public class EsController {
         return id;
     }
 
-    /**
+    */
+/**
      * 插入记录
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/insertModel")
     public String insertModel() {
         Employee employee = new Employee();
@@ -89,11 +102,13 @@ public class EsController {
         return id;
     }
 
-    /**
+    */
+/**
      * 删除记录
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/delete")
     public String delete(String id) {
         if (StringUtils.isNotBlank(id)) {
@@ -104,11 +119,13 @@ public class EsController {
         }
     }
 
-    /**
+    */
+/**
      * 更新数据
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/update")
     public String update(String id) {
         if (StringUtils.isNotBlank(id)) {
@@ -124,13 +141,15 @@ public class EsController {
         }
     }
 
-    /**
+    */
+/**
      * 获取数据
      * http://127.0.0.1:8080/es/getData?id=2018-04-25%2016:33:44
      *
      * @param id
      * @return
-     */
+     *//*
+
     @RequestMapping("/getData")
     public String getData(String id) {
         if (StringUtils.isNotBlank(id)) {
@@ -141,12 +160,14 @@ public class EsController {
         }
     }
 
-    /**
+    */
+/**
      * 查询数据
      * 模糊查询
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/queryMatchData")
     public String queryMatchData() {
         BoolQueryBuilder boolQuery = QueryBuilders.boolQuery();
@@ -162,12 +183,14 @@ public class EsController {
         return JSONObject.toJSONString(list);
     }
 
-    /**
+    */
+/**
      * 通配符查询数据
      * 通配符查询 ?用来匹配1个任意字符，*用来匹配零个或者多个字符
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/queryWildcardData")
     public String queryWildcardData() {
         QueryBuilder queryBuilder = QueryBuilders.wildcardQuery("first_name.keyword", "cici");
@@ -175,11 +198,13 @@ public class EsController {
         return JSONObject.toJSONString(list);
     }
 
-    /**
+    */
+/**
      * 正则查询
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/queryRegexpData")
     public String queryRegexpData() {
         QueryBuilder queryBuilder = QueryBuilders.regexpQuery("first_name.keyword", "m--[0-9]{1,11}");
@@ -187,11 +212,13 @@ public class EsController {
         return JSONObject.toJSONString(list);
     }
 
-    /**
+    */
+/**
      * 查询数字范围数据
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/queryIntRangeData")
     public String queryIntRangeData() {
         BoolQueryBuilder boolQuery = QueryBuilders.boolQuery();
@@ -201,11 +228,13 @@ public class EsController {
         return JSONObject.toJSONString(list);
     }
 
-    /**
+    */
+/**
      * 查询日期范围数据
      *
      * @return
-     */
+     *//*
+
     @RequestMapping("/queryDateRangeData")
     public String queryDateRangeData() {
         BoolQueryBuilder boolQuery = QueryBuilders.boolQuery();
@@ -215,7 +244,8 @@ public class EsController {
         return JSONObject.toJSONString(list);
     }
 
-    /**
+    */
+/**
      * 查询分页
      *
      * @param startPage 第几条记录开始
@@ -224,7 +254,8 @@ public class EsController {
      *                  第2页 ：http://127.0.0.1:8080/es/queryPage?startPage=2&pageSize=2
      * @param pageSize  每页大小
      * @return
-     */
+     *//*
+
     @RequestMapping("/queryPage")
     public String queryPage(String startPage, String pageSize) {
         if (StringUtils.isNotBlank(startPage) && StringUtils.isNotBlank(pageSize)) {
@@ -238,3 +269,4 @@ public class EsController {
         }
     }
 }
+*/
