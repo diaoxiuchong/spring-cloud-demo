@@ -1,6 +1,7 @@
 package com.example.controller;
 
 import com.example.common.RedisUtil;
+//import com.example.config.Sender;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,11 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @Slf4j
 @RestController
-@RequestMapping("/a")
 public class TestController {
 
     @Autowired
     private RedisUtil redisUtil;
+   /* @Autowired
+    private Sender sender;*/
 
     @GetMapping("/redis")
     public Object getRedis(){
@@ -27,5 +29,15 @@ public class TestController {
         redisUtil.hset("北体","事业部","刁秀崇");
         return redisUtil.get("r");
     }
+
+    /*@GetMapping("/rabbitmq")
+    public String helloTest(){
+        sender.send();
+        return "success";
+    }*/
+
+
+
+
 
 }
