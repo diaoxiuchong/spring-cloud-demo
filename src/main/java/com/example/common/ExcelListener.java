@@ -33,6 +33,7 @@ public class ExcelListener extends AnalysisEventListener {
     //可以通过实例获取该值
     private List<Object> datas = new ArrayList();
 
+    @Override
     public void invoke(Object object, AnalysisContext context) {
         System.out.println("当前行："+context.getCurrentRowNum());
         System.out.println(object);
@@ -49,6 +50,7 @@ public class ExcelListener extends AnalysisEventListener {
 
     }
 
+    @Override
     public void doAfterAllAnalysed(AnalysisContext context) {
 
         //datas.clear();//解析结束销毁不用的资源
