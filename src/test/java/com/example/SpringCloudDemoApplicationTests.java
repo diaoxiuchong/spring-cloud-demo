@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.common.CardUtil;
 import com.example.common.ExcelUtils;
 import com.example.entity.ExcelEntity;
 import com.example.repository.ExcelEntityRepository;
@@ -10,6 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Map;
 
 @SpringBootTest
 public class SpringCloudDemoApplicationTests {
@@ -37,5 +39,16 @@ public class SpringCloudDemoApplicationTests {
                 }
             }
         }
+    }
+
+    @Test
+    public void Test2() {
+        Map<String, String> carInfo = CardUtil.getBirAgeSex("372928199511085213");
+        String sex = carInfo.get("sexCode");
+        System.out.println(sex);
+        String age = carInfo.get("age");
+        System.out.println(age);
+        String birthday = carInfo.get("birthday");
+        System.out.println(birthday);
     }
 }
